@@ -1,8 +1,5 @@
-matrix:
-  include:
-    - os: linux
-      dist: trusty
-      sudo: required
+sudo: required
+dist: trusty
 before_install:
   - sudo apt-get update
   - sudo apt-get install unoconv
