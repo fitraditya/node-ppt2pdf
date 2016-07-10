@@ -1,0 +1,30 @@
+{
+  "name": "ppt2pdf",
+  "version": "0.0.1",
+  "description": "A nodejs module for converting PowerPoint file into PDF file",
+  "author": "Fitra Aditya <fitra@g.pl>",
+  "license": "MIT",
+  "homepage": "https://github.com/fitraditya/node-ppt2pdf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitraditya/node-ppt2pdf.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/fitraditya/node-ppt2pdf/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "odp to pdf",
+    "ppt to pdf",
+    "pptx to pdf"
+  ]
+}
