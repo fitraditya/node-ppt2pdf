@@ -1,6 +1,9 @@
 # node-ppt2pdf
 
-A nodejs module for converting PowerPoint file into PDF file
+A nodejs module for converting PowerPoint file into PDF file using unoconv
+
+## Requirement
+Unoconv is required, which requires LibreOffice (or OpenOffice)
 
 ## Installation
 ```
