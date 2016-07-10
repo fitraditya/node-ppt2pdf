@@ -6,6 +6,7 @@ matrix:
 before_install:
   - sudo apt-get update
   - sudo apt-get install unoconv
+  - sudo apt-get install libreoffice --no-install-recommends
 language: node_js
 node_js:
   - 0.12
