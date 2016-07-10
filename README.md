@@ -1,6 +1,6 @@
 # node-ppt2pdf
 
-A nodejs module for converting PowerPoint file into PDF file using unoconv
+A nodejs module for converting PowerPoint (also Impress) file into PDF file using unoconv
 
 ## Requirement
 Unoconv is required, which requires LibreOffice (or OpenOffice)
@@ -17,7 +17,7 @@ var ppt2pdf = require('ppt2pdf');
 
 var options = {
   output: null                    // specified output name (without extension)
-  outputdir: __dirname + output   // outputdir must be absolute path
+  outputdir: __dirname + 'output'   // outputdir must be absolute path
   pagerange: null                 // specified page range to be converted, example: '1' or '1-2'
 }; 
 
